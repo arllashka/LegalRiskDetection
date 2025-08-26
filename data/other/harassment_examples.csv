@@ -1,0 +1,4 @@
+ID,Corporation,Text,Datetime,Hashtags,Racial Justice,BLM,Juneteenth,Money,pred_label_id,pred_label_name,p_Normal,p_Harassment,p_Defamation,p_Misleading,pred_confidence,risk_flag
+1283802795741716480,Target,Anyone else craving cake?,2020-07-16 16:36:53,,False,,,,1,Harassment,0.26961342,0.5475486,0.008601399,0.17423655,0.5475486,True
+1276684649843097600,Home Depot,RT @HomeDepotGR: Just in! Gov. Kemp signs GA’s hate crime bill into law. @HomeDepot applauds this action &amp; is proud of our thousands of ass…,2020-06-27 01:11:54,,False,,,,1,Harassment,0.071421415,0.91743827,0.0029281953,0.008212013,0.91743827,True
+1268172140316102656,Procter & Gamble,"RT @OldSpice: Racism is a 400-year pandemic. Enough is enough. Black lives matter. Today, we are establishing a fund with our parent compan…",2020-06-03 13:26:14,,True,True,False,True,1,Harassment,0.043892022,0.89659315,0.0033179848,0.056196846,0.89659315,True

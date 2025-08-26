@@ -1,0 +1,23 @@
+import pandas as pd
+from bs4 import BeautifulSoup
+html_path = '/Users/arlankalin/Downloads/Cyberbullying-emotion-main/data/asa_defam.html'
+
+# read & parse the HTML
+with open(html_path, 'r', encoding='utf-8') as f:
+    soup = BeautifulSoup(f.read(), 'html.parser')
+
+# extract every listing’s title and its link
+records = []
+for li in soup.select('li.icon-listing-item'):
+    a_tag = li.find('h4').find('a') if li.find('h4') else None
+    if a_tag:
+        title = " ".join(a_tag.get_text(strip=True).split())
+        link = a_tag.get('href', '')
+        records.append({"title": title, "link": link})
+
+# build the DataFrame
+df = pd.DataFrame(records)
+
+# save to CSV
+csv_path = '/Users/arlankalin/Downloads/Cyberbullying-emotion-main/data/asa_defam_cases.csv'
+df.to_csv(csv_path, index=False)
