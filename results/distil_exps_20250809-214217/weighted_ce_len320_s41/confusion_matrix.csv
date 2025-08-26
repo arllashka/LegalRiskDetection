@@ -1,0 +1,5 @@
+,pred_Normal,pred_Harassment,pred_Defamation,pred_Misleading
+true_Normal,309,16,21,3
+true_Harassment,22,217,0,13
+true_Defamation,7,0,43,0
+true_Misleading,4,3,0,80

@@ -1,0 +1,15 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "max_length": 320,
+  "supcon_epochs": 1,
+  "supcon_lr": 2e-05,
+  "temperature": 0.1,
+  "proj_dim": 128,
+  "ce_epochs": 4,
+  "ce_lr": 2e-05,
+  "bsz_train": 16,
+  "bsz_eval": 32,
+  "seed": 42,
+  "early_stop": false,
+  "hf_version": "4.55.0"
+}

@@ -1,0 +1,24 @@
+Experiment Configuration:
+{'model_name': 'nlpaueb/legal-bert-base-uncased', 'output_dir': 'results/legalbert_base', 'max_length': 512, 'epochs': 4, 'loss_type': 'ce'}
+
+Final Validation Metrics:
+{'eval_loss': 0.3964153230190277, 'eval_accuracy': 0.8794037940379403, 'eval_f1_macro': 0.8536805651157463, 'eval_runtime': 5.1245, 'eval_samples_per_second': 144.014, 'eval_steps_per_second': 4.683, 'epoch': 4.0}
+
+Per-class Report:
+              precision    recall  f1-score   support
+
+      Normal      0.894     0.914     0.904       349
+  Harassment      0.882     0.857     0.869       252
+  Defamation      0.919     0.680     0.782        50
+  Misleading      0.808     0.920     0.860        87
+
+    accuracy                          0.879       738
+   macro avg      0.876     0.843     0.854       738
+weighted avg      0.881     0.879     0.879       738
+
+
+Confusion Matrix:
+[[319  23   3   4]
+ [ 21 216   0  15]
+ [ 14   2  34   0]
+ [  3   4   0  80]]

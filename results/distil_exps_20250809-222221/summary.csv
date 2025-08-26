@@ -1,0 +1,5 @@
+name,max_length,loss_type,lr,epochs,seed,run_dir,max_len,loss,gamma,accuracy,f1_macro,bsz_train,bsz_eval
+base_ce_len256,256,ce,2e-05,4,42,results/distil_exps_20250809-222221/base_ce_len256,256,ce,2.0,0.9010840108401084,0.8733811607894382,,
+weighted_ce_len128,128,weighted_ce,2e-05,4,42,results/distil_exps_20250809-222221/weighted_ce_len128,128,weighted_ce,2.0,0.8739837398373984,0.8475966284904417,32.0,64.0
+weighted_ce_len384,384,weighted_ce,2e-05,4,42,results/distil_exps_20250809-222221/weighted_ce_len384,384,weighted_ce,2.0,0.8956639566395664,0.8698376764136516,12.0,24.0
+weighted_ce_len512,512,weighted_ce,2e-05,4,42,results/distil_exps_20250809-222221/weighted_ce_len512,512,weighted_ce,2.0,0.8915989159891599,0.8697361674686044,8.0,16.0

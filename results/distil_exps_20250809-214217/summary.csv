@@ -1,0 +1,4 @@
+name,max_length,loss_type,lr,epochs,seed,run_dir,max_len,loss,gamma,accuracy,f1_macro
+weighted_ce_len320_s41,320,weighted_ce,1.5e-05,4,41,results/distil_exps_20250809-214217/weighted_ce_len320_s41,320,weighted_ce,2.0,0.8794037940379403,0.8531007932216963
+weighted_ce_len320_s42,320,weighted_ce,1.5e-05,4,42,results/distil_exps_20250809-214217/weighted_ce_len320_s42,320,weighted_ce,2.0,0.8766937669376694,0.8483785361192241
+weighted_ce_len320_s43,320,weighted_ce,1.5e-05,4,43,results/distil_exps_20250809-214217/weighted_ce_len320_s43,320,weighted_ce,2.0,0.8875338753387534,0.861352244689408

@@ -1,0 +1,4 @@
+run_dir,accuracy,f1_macro,max_length,temperature,supcon_epochs,ce_epochs,bsz_train,bsz_eval,seed
+results/warmup/supcon_runs_20250811-023348/len256_temp0.1,0.8970189701897019,0.8674621048308717,256,0.1,1,4,16,32,42
+results/warmup/supcon_runs_20250811-023348/len320_temp0.1,0.8875338753387534,0.852376860450266,320,0.1,1,4,16,32,42
+results/warmup/supcon_runs_20250811-023348/len384_temp0.1,0.8943089430894309,0.8606022184932799,384,0.1,1,4,16,32,42

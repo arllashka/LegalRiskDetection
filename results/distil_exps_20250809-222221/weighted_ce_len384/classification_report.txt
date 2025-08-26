@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+      Normal       0.91      0.91      0.91       349
+  Harassment       0.91      0.88      0.90       252
+  Defamation       0.79      0.76      0.78        50
+  Misleading       0.86      0.93      0.90        87
+
+    accuracy                           0.90       738
+   macro avg       0.87      0.87      0.87       738
+weighted avg       0.90      0.90      0.90       738
